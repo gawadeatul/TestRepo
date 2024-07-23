@@ -1,0 +1,193 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd ubuntu/
+    5  sudo apt
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd gawadeatul/
+   10  ls
+   11  ls -l /var/run/docker.sock 
+   12  sudo chown root:docker /var/run/docker.sock
+   13  ls -l /var/run/docker.sock 
+   14  docker ps
+   15  clear
+   16  docker --version 
+   17  docker ps
+   18  docker status
+   19  systemctl status docker
+   20  df -f h
+   21  df -h
+   22  clear
+   23  docker images
+   24  wsl
+   25  ls
+   26  sudo apt update
+   27  clear
+   28  sudo apt-get install docker.io
+   29  docker
+   30  docker ps
+   31  docker --version
+   32  clear
+   33  cat /etc/group
+   34  whoami
+   35  sudo usermod -aG docker $USER
+   36  cat /etc/group
+   37  docker ps
+   38  clear
+   39  docker ps
+   40  ls -l /var/run/docker.sock
+   41  sudo addgroup --system docker
+   42  sudo adduser $USER docker
+   43  sudo chown root:docker /var/run/docker.sock
+   44  sudo chmod g+w /var/run/docker.sock
+   45  docker ps
+   46  ls -l /var/run/docker.sock
+   47  sudo chown root:docker /var/run/docker.sock
+   48  ls -l /var/run/docker.sock
+   49  clear
+   50  la
+   51  ls
+   52  cat /etc/group
+   53  sudo usermod -aG docker $USER
+   54  cat /etc/group
+   55  newgrp docker
+   56  sudo chown root:docker /var/run/docker.sock
+   57  cd gawadeatul/
+   58  cat/etc
+   59  cat etc/group
+   60  cat /etc/group
+   61  -l /var/run/docker.sock
+   62  ls -l /var/run/docker.sock
+   63  newgrp docker
+   64  ls
+   65  docker
+   66  docker ps
+   67  docker image
+   68  docker images
+   69  clear
+   70  docker pull mysql
+   71  docker run mysql
+   72  clear
+   73  docker run -d -e MYSQL_ROOT_PASSWORD=root mysql:latest
+   74  docker ps
+   75  docker ps -a
+   76  docker rmi $(docker images -q)
+   77  docker remove c4f87af41a4c c6563935ab3f
+   78  docker stop c6563935ab3f
+   79  clear
+   80  docker ps
+   81  docker stop c4f87af41a4c
+   82  docker ps
+   83  clear
+   84  docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql:latest
+   85  mysql
+   86  docker ps
+   87  docker exec -it fada439570dd bash
+   88  clear
+   89  history
+   90  clear
+   91  docker ps
+   92  docker ps -a
+   93  clear
+   94  docker volume ls
+   95  free -h
+   96  df -h
+   97  clear
+   98  docker network ls
+   99  docker compose up
+  100  docker -compose up
+  101  docker --help
+  102  docker compose --help
+  103  clear
+  104  docker compose up
+  105  sudo apt-get update
+  106  docker compose up
+  107  docker version
+  108  docker --version
+  109  clear
+  110  sudo apt-get update
+  111  clear
+  112  ls
+  113  cd ..
+  114  ;s
+  115  ls
+  116  cd ubuntu/
+  117  chmod 777 ubuntu/
+  118  ls
+  119  cd gawadeatul/
+  120  ls
+  121  mkdir git-tutorial
+  122  cd git-tutorial/
+  123  mkdir devops-practice-project
+  124  mkdir devops-project-batch-7
+  125  ls
+  126  cd devops-pr
+  127  ls
+  128  cd devops-project-batch-7
+  129  ls
+  130  clear
+  131  git status
+  132  git clone https://github.com/gawadeatul/TestRepo.git
+  133  ls
+  134  cd TestRepo/
+  135  ls
+  136  git status 
+  137  nano README.md 
+  138  git status 
+  139  ls
+  140  clear
+  141  git branch
+  142  cat README.md 
+  143  ls
+  144  vim solution.txt
+  145  git status
+  146  git add
+  147  git add solution.txt 
+  148  ls
+  149  git commit -m "Solution for day 1"
+  150  git config --global user.name "Atul Gawade"
+  151  git config --global user.email "atulgawade45@gmail.com"
+  152  git config --list
+  153  ls
+  154  git commit -m "Solution for day 1"
+  155  git push origin main
+  156  git status
+  157  git remote -v
+  158  clear
+  159  git remote -v
+  160  ls
+  161  cd
+  162  cd .ssh
+  163  ssh-keygen
+  164  ls
+  165  cd ..
+  166  ls
+  167  cd .ssh
+  168  cd..
+  169  cd ..
+  170  ls
+  171  cd home/
+  172  ls 
+  173  cd gawadeatul/
+  174  ls
+  175  clear
+  176  ssh-keygen
+  177  cd .ssh/
+  178  ls
+  179  cat id_ed25519.pub 
+  180  cd
+  181  ls
+  182  cd git-tutorial/
+  183  git staus
+  184  cd g
+  185  ls
+  186  clear
+  187  git clone git@github.com:gawadeatul/TestRepo.git
+  188  cls
+  189  ls
+  190  cd TestRepo/
+  191  ls
+  192  git status 
+  193  history > all_commands.txt
