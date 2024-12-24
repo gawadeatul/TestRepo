@@ -190,4 +190,4 @@
   190  cd TestRepo/
   191  ls
   192  git status 
-  193  history > all_commands.txt
+
